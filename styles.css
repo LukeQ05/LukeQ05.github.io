@@ -1,0 +1,142 @@
+/* black ansd white tyles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  font-weight: bold; /* Bold font */
+}
+
+header {
+  background-color: #000000; /* Black header */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff; /* White links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  border-bottom: 2px solid #000000; /* Black border */
+  padding-bottom: 5px;
+  font-size: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #000000; /* Black borders */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  background-color: #000000; /* Black button */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #333333; /* Dark gray on hover */
+}
+
+footer {
+  background-color: #000000; /* Black footer */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Education Section Styles */
+#education {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.education-box {
+  background-color: #ffffff; /* White background */
+  border: 2px solid #000000; /* Black border */
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(50% - 20px); /* Two boxes per row */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.education-box h3 {
+  margin-top: 0;
+  color: #000000; /* Black text */
+  font-size: 1.5rem;
+}
+
+.education-box p {
+  margin: 10px 0;
+  color: #000000; /* Black text */
+}
+
+.education-box a {
+  display: inline-block;
+  background-color: #000000; /* Black button */
+  color: #ffffff; /* White text */
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.education-box a:hover {
+  background-color: #333333; /* Dark gray on hover */
+}
